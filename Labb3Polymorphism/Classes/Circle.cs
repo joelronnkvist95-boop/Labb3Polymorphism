@@ -12,11 +12,11 @@ namespace Labb3Polymorphism.Classes
 
         public double Pi { get; set; }
 
-        public Circle(double radius, double diameter)
+        public Circle()
         {
-            Radius = radius;
+            Radius = 5.2;
 
-            Diameter = diameter;
+            Diameter = 10.4;
 
             Pi = 3.141;
         }

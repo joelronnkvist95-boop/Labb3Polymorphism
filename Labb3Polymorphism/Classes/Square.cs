@@ -7,6 +7,11 @@ namespace Labb3Polymorphism.Classes
     internal class Square : Geometry
     {
         double Side { get; set; }
+
+        public Square()
+        {
+            Side = 19.3;
+        }
         public override double Area()
         {
             double area = Side * Side;

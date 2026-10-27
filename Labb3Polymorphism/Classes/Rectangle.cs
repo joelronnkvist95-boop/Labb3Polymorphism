@@ -8,6 +8,12 @@ namespace Labb3Polymorphism.Classes
     {
         double Height { get; set; }
         double Width { get; set; }
+
+        public Rectangle()
+        {
+            Height = 13.37;
+            Width = 18;
+        }
         public override double Area()
         {
             double area = Height * Width;
