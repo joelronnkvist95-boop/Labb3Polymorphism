@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Labb3Polymorphism.Classes
 {
-    internal class Rectangle : Geometry
+    public class Rectangle : Geometry
     {
         double Height { get; set; }
         double Width { get; set; }

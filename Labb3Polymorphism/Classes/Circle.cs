@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Labb3Polymorphism.Classes
 {
-    internal class Circle : Geometry
+    public class Circle : Geometry
     {
         public double Radius { get; set; }
 

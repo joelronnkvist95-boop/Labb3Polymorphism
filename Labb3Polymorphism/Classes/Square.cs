@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Labb3Polymorphism.Classes
 {
-    internal class Square : Geometry
+    public class Square : Geometry
     {
         double Side { get; set; }
 

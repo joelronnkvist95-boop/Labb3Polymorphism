@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Channels;
 
 namespace Labb3Polymorphism.Classes
 {
-    internal class Geometry
+    public abstract class Geometry
     {
-        double GeometryArea { get; set; }
 
 
-        public virtual double Area()
-        {
-            double area = GeometryArea;
-            return area;
-        }
+        public abstract double Area();
+
     }
 }
