@@ -20,6 +20,7 @@ namespace Labb3Polymorphism.Classes
         }
         // Här sker polymorphismen av Area metoden som deklareras i basklassen.
         // Metoden skrivs om beroende på hur arean av den geometrin beräknas.
+        // Det sker genom att låta varje subklass av Geometryklassen att skriva om metoderna på sitt eget sätt.
         public override double Area()
         {
             double area = Height * Width;
